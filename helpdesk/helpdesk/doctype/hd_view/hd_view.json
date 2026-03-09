@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:VIEW-{dt}-{###}",
+ "autoname": "HD/VIEW/{dt}/.####",
  "creation": "2025-02-11 16:05:11.457844",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -154,7 +154,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-19 18:02:31.546741",
+ "modified": "2026-03-09 01:29:34.021574",
  "modified_by": "Administrator",
  "module": "Helpdesk",
  "name": "HD View",
@@ -223,6 +223,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": []
